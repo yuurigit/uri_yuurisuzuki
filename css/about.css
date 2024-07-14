@@ -1,0 +1,372 @@
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* General Styles */
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f9f8ea;
+}
+
+/* Header Styles */
+/* .header {
+  background-color: #4185aa;
+  color: #dfdccb;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  max-width: 100px;
+}
+
+.nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav li {
+  margin-left: 1rem;
+}
+
+.nav a {
+  color: #dfdccb;
+  text-decoration: none;
+  font-family: "Caveat", cursive;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 0.5rem 0.8rem;
+  transition: all 0.3s ease;
+}
+
+.nav .nomal-link:hover {
+  text-decoration: underline;
+  color: #F2d2c9;
+}
+
+.nav .highlighted-link {
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.nav .highlighted-link:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #F2d2c9; 
+  border-color: #F2d2c9; 
+} */
+
+.main-about {
+  margin-top: 70px; /* Adjust based on the header height */
+  flex: 1;
+  display: flex;
+  /* text-align: center; */
+  padding: 1rem;
+  color: #8c5B54;
+  flex-direction: column;
+}
+
+
+/* Hero Section */
+
+.hero-area {
+  /* padding: 2rem 1rem; */
+  /* background-color: #dfdccb; */
+  color: #4185aa;
+  /* text-align: center; */
+}
+
+.hero-area-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-area h1 {
+  font-family: "Caveat", cursive;
+  margin-bottom: 2rem;
+  font-size: 2.2rem;
+}
+
+.hero-area h2 {
+  font-family: "Caveat", cursive;
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.hero-area h3 {
+  font-family: "Caveat", cursive;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.hero-area p {
+  font-size: 0.9rem;
+  line-height: 1.8em;
+  color: #8c5B54;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.hero-area > img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.hero-area-images {
+  display: flex;
+}
+
+
+.hero-area-button {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.contact-button:hover {
+  background-color: #555;
+  background-color: rgba(255, 255, 255, 0.2); 
+  color: #4185aa; 
+  border-color: #4185aa;
+}
+
+.contact-button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
+  color: #8c5B54;
+  background-color: #F2d2c9;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid #a9Bea8;
+  margin-bottom: 2rem;
+  align-items: center;
+  /* border: none;
+  border-radius: 8px; */
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+/* About (Why Hire Me) Section */
+
+.about-section {
+  display: flex;
+  flex-direction: column;
+  color: #4185aa;
+  padding-top: 2rem;
+  background-color: #f9f8ea;
+}
+
+.about-section-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-section img {
+  max-width: 100%;
+}
+
+.about-section h1 {
+  font-family: "Caveat", cursive;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.about-section h2 {
+  font-family: "Caveat", cursive;
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+.about-section li {
+  font-size: 0.8rem;
+  line-height: 1.8em;
+  color: #8c5B54;
+}
+
+.about-section p {
+  font-size: 0.9rem;
+  line-height: 1.8em;
+  color: #8c5B54;
+}
+
+.styled-list {
+  padding: 0.8rem 1rem;
+  background-color: #dfdccb;
+  color: #4185aa;
+  border-radius: 8px;
+  list-style: disc inside;
+  transition: transform 0.3s ease;
+}
+
+.styled-list li {
+  margin: 0.5rem 0;
+  margin-left: 0.6rem;
+}
+
+.styled-list h2 {
+  font-size: 1.6rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.bio:hover {
+  transform: translateX(-10px);
+}
+
+.bio li {
+  font-size: 0.9rem;
+}
+
+.bio p {
+  margin: 0.5rem;
+}
+
+/* Software Skills */
+.software-skills:hover {
+  transform: translateX(10px);
+}
+
+
+.software-skills ul {
+  list-style: none;
+  padding: 0;
+}
+
+.software-skills li {
+  display: inline-block;
+  margin: 0.5rem;
+  font-size: 1.1rem;
+}
+
+
+/* Services Section */
+
+.services-section {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  /* padding: 2rem 1rem; */
+  /* text-align: center; */
+  color: #4185aa;
+  background-color: #f9f8ea;
+}
+
+.services-section h1 {
+  font-family: "Caveat", cursive;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.services-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.services-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.service {
+  background-color: #dfdccb;
+  padding: 1rem;
+  border-radius: 8px;
+  max-width: 200px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.service:hover {
+  transform: translateY(-10px);
+}
+
+.service img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.service h3 {
+  margin: 0.5rem 0;
+  font-size: 1.2rem;  
+}
+
+.service p {
+  font-size: 0.9rem;
+}
+
+
+
+/* Footer Styles */
+
+/* .footer {
+  background-color: #4185aa;
+  color: #dfdccb;
+  padding: 1rem;
+  text-align: center;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.social-links {
+  margin-top: 1rem;
+}
+
+.social-links a {
+  color: #dfdccb;
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin: 0 0.5rem;
+  transition: transform 0.3s ease;
+}
+
+.social-links a:hover {
+  transform: scale(1.2);
+}   */
+
+/* in class */
+/* 
+#hero > h1.slidUp{
+    top: 50%;
+    color: #000;
+} 
+
+.service > figure{
+    width: 100%;
+    height: 100%;
+}
+
+#burger {
+    margin-right: 30px;
+    border:2px solid #000;
+}
+
+
+.burgermenu {
+   display: none;
+} */
+
+/* in class */
+
