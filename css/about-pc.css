@@ -5,18 +5,35 @@
         width: calc(100% - 220px);
         padding: 2rem;
         margin-top: 30px;
-        align-content: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .hero-area {
-        margin-left: 9rem;
+        /* margin-left: 9rem; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
+        width: 900px;
+        padding-left: 10rem;
+        padding-right: 10rem;
     }
     
     .hero-area-container {
         display: flex;
-        align-items: center;
         flex-direction: row;
- 
+        justify-content: flex-start;
+        /* box-sizing: border-box;
+        padding-left: 9rem;
+        padding-right: 9rem; */
+
+    }
+
+    .hero-area-container2 {
+        display: flex;
+        justify-content: flex-start;
     }
 
     .hero-area img {
@@ -32,7 +49,6 @@
     .about-section {
         display: flex;
         flex-direction: column;
-        align-items: end;
         padding-top: 2rem;
         margin-left: 9rem;
     }
