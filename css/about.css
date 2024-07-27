@@ -292,7 +292,7 @@ body {
   background-color: #dfdccb;
   padding: 1rem;
   border-radius: 8px;
-  max-width: 200px;
+  max-width: 180px;
   text-align: center;
   transition: transform 0.3s ease;
 }
