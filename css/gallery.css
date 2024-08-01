@@ -100,7 +100,7 @@ article {
 
 #gallery_2 {
     background-color: black;
-    background-image: url();
+    background-image: url(../assets/images/gallery/art-2.png);
     background-size: cover;
     background-position: center;
     grid-area: image_2;
@@ -141,30 +141,33 @@ article {
 
 #gallery_7 {
     background-color: black;
-    background-image: url();
+    background-image: url(../assets/images/gallery/icons-7.png);
     background-size: cover;
-    background-position: -250px;
+    /* background-position: -250px; */
     grid-area: image_7;
 }
 
 #gallery_8 {
     background-color: black;
+    background-image: url(../assets/images/gallery/app-8.png);
+    background-size: cover;
+    /* background-position: -30px; */
     grid-area: image_8;
 }
 
 #gallery_9 {
     background-color: black;
-    background-image: url();
+    background-image: url(../assets/images/gallery/Branding-9.png);
     background-size: cover;
-    background-position: -250px;
+    /* background-position: -250px; */
     grid-area: image_9;
 }
 
 #gallery_10 {
     background-color: black;
-    background-image: url();
+    background-image: url(../assets/images/gallery/);
     background-size: cover;
-    background-position: -250px;
+    /* background-position: -250px; */
     grid-area: image_10;
 }
 
