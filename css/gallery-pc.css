@@ -1,4 +1,3 @@
-
 @media (min-width: 750px) {
     .main-gallery {
         margin-left: 200px; 
@@ -22,63 +21,6 @@
         padding-left: 10rem;
         padding-right: 5rem;
     }
-    
-    .hero-area-container {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        /* box-sizing: border-box;
-        padding-left: 9rem;
-        padding-right: 9rem; */
-        color: #4185aa;
-      /* text-align: center; */
-    }
-
-    .hero-area-container2 {
-        display: flex;
-        justify-content: flex-start;
-    }
-
-    .hero-area img {
-        padding-left: 1rem;
-    }
-
-
-    .hero-area-button {
-        text-align: start;
-        margin-top: 1.5rem;
-    }
-
-    .about-section {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding-left: 10rem;
-        padding-right: 10rem;
-        /* padding-top: 2rem;
-        margin-left: 9rem; */
-    }
-    
-    .about-section-container {
-        margin: 0px;
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-    }
-
-    .services-section {
-        padding-left: 10rem;
-        padding-right: 10rem;
-        /* width: 900px; */
-    }
-
-    .services-container {
-        display: flex;
-        /* justify-content: flex-start; */
-        flex-wrap: wrap;
-        gap: 1rem;
-
-    }
 
     /* grid style */
 
@@ -98,8 +40,13 @@
         "image_5 image_3 image_3 space_3"
         "space_4 space_4 image_6 image_6"
         "image_7 image_8 image_6 image_6"
-        "image_7 space_5 space_5 image_10"
+        "image_7 space_5 image_10 image_10"
         "image_9 image_9 space_6 space_6"
         }
 
+        article > img {
+            max-width: 100%;
+            object-fit: cover;
+            align-self: stretch;
+          }
     }  
