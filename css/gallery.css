@@ -37,217 +37,165 @@ p {
 
 
 .main-gallery {
-    /* Adjust based on the header height */
-    margin-top: 1rem; 
-    flex: 1;
-    display: flex;
-    /* text-align: center; */
-    padding: 1rem;
-    color: #8c5B54;
-    flex-direction: column;
-  }
+  /* Adjust based on the header height */
+  margin-top: 1rem; 
+  margin-bottom: 4rem; 
+  flex: 1;
+  display: flex;
+  /* text-align: center; */
+  padding: 1rem;
+  color: #8c5B54;
+  flex-direction: column;
+}
 
 .gallery-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 
 article {
-    background-color: #ccc;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 2rem;
-    color: white;
+  background-color:#f9f8ea;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: #f9f8ea;
+  border-radius: 4px;
 }
+
 
 #grid {
-    width: 100%;
-    margin: 50px auto;
-    display: grid;
-    gap: 10px;
-    /* reduce columns and rows, and their sizes */
-    grid-template-columns:  repeat(2, minmax( 200px , 20vw));
-    grid-auto-rows: 200px;
-
-    grid-template-areas: 
-
-    "image_1 image_1"
-    "image_1 image_1"
-    "image_2 image_2"
-    "image_2 image_2"
-    "image_3 image_3"
-    "image_3 image_3"
-    "image_7 image_4"
-    "image_7 image_4"
-    "image_6 image_6"
-    "image_6 image_6"
-    "image_8 image_8"
-    "image_10 image_10"
-    "image_9 image_9"
-;
+  grid-template-columns: repeat(1, minmax(150px, 1fr));
+  gap: 10px;
 }
 
-#gallery_1 {
-    background-image: url(../assets/images/gallery/webdesign-1.png) ;
-    background-size: cover;
+.gallery {
+  overflow: hidden!important;
+  position: relative;
+}
 
-    grid-area: image_1;
+
+#gallery_1 {
+  grid-area: image_1;
+
+}
+
+article > img {
+  border-radius: 4px;
+  max-width: 100%;
+  object-fit: cover;
+  align-self: center;
+  margin-top: 10px;
+}
+
+article > video {
+  border-radius: 4px;
+  max-width: 100%;
+  object-fit: cover;
+
+  position: relative;
+  z-index: 1; 
+  overflow: hidden;
+}
+
+
+#gallery_1 {
+  grid-area: image_1;
 }
 
 #gallery_2 {
-    background-color: black;
-    background-image: url(../assets/images/gallery/art-2.png);
-    background-size: cover;
-    background-position: center;
-    grid-area: image_2;
+  grid-area: image_2;
 }
 
 #gallery_3 {
-    background-color: black;
-    background-image: url(../assets/images/gallery/magazinespread-3.png);
-    background-size: cover;
-    background-position: center;
-    grid-area: image_3;
+  grid-area: image_3;
 }
 
-
 #gallery_4 {
-    background-color: black;
-    background-image: url(../assets/images/gallery/web-sp-4.png);
-    background-size: cover;
-    background-position: center;
-    grid-area: image_4;
+  grid-area: image_4;
 }
 
 #gallery_5 {
-    background-color: black;
-    background-image: url(../assets/images/gallery/photobook-5.png);
-    background-size: cover;
-    background-position: center;
-    grid-area: image_5;
+  grid-area: image_5;
 }
 
 #gallery_6 {
-    background-color: black;
-    background-image: url(../assets/images/gallery/ad-6.png);
-    background-size: cover;
-    background-position: -30px;
-    grid-area: image_6;
+  grid-area: image_6;
 }
 
+/* #gallery_6_image {
+
+} */
+
 #gallery_7 {
-    background-color: black;
-    background-image: url(../assets/images/gallery/icons-7.png);
-    background-size: cover;
-    /* background-position: -250px; */
-    grid-area: image_7;
+  grid-area: image_7;
 }
 
 #gallery_8 {
-    background-color: black;
-    background-image: url(../assets/images/gallery/app-8.png);
-    background-size: cover;
-    /* background-position: -30px; */
-    grid-area: image_8;
+  grid-area: image_8;
 }
 
 #gallery_9 {
-    background-color: black;
-    background-image: url(../assets/images/gallery/Branding-9.png);
-    background-size: cover;
-    /* background-position: -250px; */
-    grid-area: image_9;
+  grid-area: image_9;
 }
 
 #gallery_10 {
-    background-color: black;
-    background-image: url(../assets/images/gallery/);
-    background-size: cover;
-    /* background-position: -250px; */
-    grid-area: image_10;
+  grid-area: image_10;
 }
 
 /* interactive styles */
-/* #gallery {
-    width: 100vw;
-    height: 280px;
-    background-color: pink;
   
-    display: flex;
-    margin: 50px auto;
-    justify-content: center;
-    gap: 50px;
-  
-  } */
-  
-  /* .gallery {
-    width: 180px;
-    height: 260px;
-    background-color: orange;
-    border-radius: 5px;
-  
-    overflow: hidden;
-  
-    position: relative;
-  } */
-  
-  
-  .gallery > figure {
-    margin: 0;
-  
-    width: 100%;
-    height: 100%;
-    background-image: url(/assets/images/galleryimage.jpg);
-    background-size: cover;
-    background-position: 15%;
-  }
-  
-  .gallery.scaleUp {
-    transform: scale(1.25);
-    transform-origin: center;
+.scaleUp {
+  transform: scale(1.15); 
+  transform-origin: center;
+  transition: transform 0.5s ease;
+}
 
-    transition: all 1s ease;
-  }
+.gallery img {
+  transition: transform 0.5s ease; 
+}
   
+
+.shade {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0); /* Initial transparent */
+  transition: background-color 0.5s ease;
+
+  border-radius: 4px;
+
+  object-fit: cover;
+  align-self: center;
+}
+
+.shade.fadeIn {
+  background-color: rgba(0, 0, 0, 0.4); /* Darker shade on hover */
+}
   
-  .shade {
-    width: 100%;
-    height: 100%;
+.gallery > p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+  /* no colour */
+  color: #00000000;
+  transition: all 1s ease;
+}
+
+.gallery > p.fadeInText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   
-    /* no colour */
-    background-color: #00000000;
-  
-    position: absolute;
-    top: 0;
-  
-    transition: all 1s ease;
-  }
-  
-  .shade.fadeIn {
-    background-color: #00000059;
-  }
-  
-  .gallery > p {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  
-    /* no colour */
-    color: #00000000;
-    transition: all 1s ease;
-  }
-  
-  .gallery > p.fadeInText {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    
-    color: #F2d2c9;
-    transition: all 1s ease;
-  }
+  color: #F2d2c9;
+  transition: all 1s ease;
+}
