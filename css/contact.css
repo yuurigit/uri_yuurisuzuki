@@ -13,60 +13,6 @@ body {
   background-color: #f9f8ea;
 }
 
-/* header styles */
-/* .header {
-  background-color: #4185aa;
-  color: #dfdccb;
-  padding: 1rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.logo img {
-  max-width: 100px;
-}
-
-.nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-
-.nav li {
-  margin-left: 1rem;
-}
-
-.nav a {
-  color: #dfdccb;
-  text-decoration: none;
-  font-family: "Caveat", cursive;
-  font-style: normal;
-  font-size: 1.2rem;
-  font-weight: bold;
-  padding: 0.5rem 0.8rem;
-  transition: all 0.3s ease;
-}
-
-.nav .nomal-link:hover {
-  text-decoration: underline;
-  color: #F2d2c9;
-}
-
-.nav .highlighted-link {
-  border: 2px solid white;
-  border-radius: 5px;
-  padding: 0.5rem 1rem;
-  background-color: rgba(255, 255, 255, 0.1);
-}
-
-.nav .highlighted-link:hover {
-  background-color: rgba(255, 255, 255, 0.2);
-  color: #F2d2c9; 
-  border-color: #F2d2c9; 
-} */
-
 /* main styles */
 
 .main {

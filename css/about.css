@@ -90,7 +90,8 @@ p {
 } */
 
 .main-about {
-  margin-top: 70px; /* Adjust based on the header height */
+  /* Adjust based on the header height */
+  margin-top: 1rem; 
   flex: 1;
   display: flex;
   /* text-align: center; */

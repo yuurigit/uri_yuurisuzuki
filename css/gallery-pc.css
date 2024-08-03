@@ -1,0 +1,105 @@
+
+@media (min-width: 750px) {
+    .main-gallery {
+        margin-left: 200px; 
+        width: calc(100% - 200px);
+        /* box-sizing: border-box;
+        padding: 2rem; */
+        padding: 0;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .gallery-section {
+        /* margin-left: 9rem; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
+        /* width: 900px; */
+        padding-left: 10rem;
+        padding-right: 5rem;
+    }
+    
+    .hero-area-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        /* box-sizing: border-box;
+        padding-left: 9rem;
+        padding-right: 9rem; */
+        color: #4185aa;
+      /* text-align: center; */
+    }
+
+    .hero-area-container2 {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .hero-area img {
+        padding-left: 1rem;
+    }
+
+
+    .hero-area-button {
+        text-align: start;
+        margin-top: 1.5rem;
+    }
+
+    .about-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 10rem;
+        padding-right: 10rem;
+        /* padding-top: 2rem;
+        margin-left: 9rem; */
+    }
+    
+    .about-section-container {
+        margin: 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .services-section {
+        padding-left: 10rem;
+        padding-right: 10rem;
+        /* width: 900px; */
+    }
+
+    .services-container {
+        display: flex;
+        /* justify-content: flex-start; */
+        flex-wrap: wrap;
+        gap: 1rem;
+
+    }
+
+    /* grid style */
+
+    #grid {
+        width: 100%;
+        margin: 50px auto;
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(4, minmax(150px, 1fr));
+        grid-auto-rows: 200px;
+
+        grid-template-areas: 
+        
+        "image_1 image_1 space_1 image_2"
+        "image_1 image_1 space_1 image_4"
+        "space_2 image_3 image_3 image_4"
+        "image_5 image_3 image_3 space_3"
+        "space_4 space_4 image_6 image_6"
+        "image_7 image_8 image_6 image_6"
+        "image_7 space_5 space_5 image_10"
+        "image_9 image_9 space_6 space_6"
+        }
+
+    }  

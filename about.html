@@ -8,20 +8,51 @@
     <!-- style sheet -->
     <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/about-pc.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <title>About - Yuuri Suzuki</title>
 </head>
 <body>
     <div class="container">
-    <div data-include="header.html"></div>
+    <!-- <div data-include="header.html"></div> -->
     <!-- burger menu -->
-    <!-- <nav class="burgermenu">
-        <ul>
-          <li><a href="about.html" class="nomal-link">About</a></li>
-          <li><a href="work.html" class="nomal-link">Works</a></li>
-          <li><a href="contact.html" class="highlighted-link">Contact</a></li>
-        </ul>
-    </nav> -->
+    <header class="header">
+        <section class="side-header">
+          <div class="logo">
+            <img src="logo.png" alt="logo">
+          </div>
+          <div id="burger">
+            <div></div>
+            <div></div>
+            <div></div>
+            </div>
+        <div id="close">&times;</div>
+        <nav id="nav">
+            <ul>
+              <li><a href="about.html" class="nomal-link">About</a></li>
+              <li><a href="work.html" class="nomal-link">Works</a></li>
+              <li><a href="index.html" class="highlighted-link">Contact</a></li>
+            </ul>
+          </nav>
+          <!-- <figure id="burger" ></figure>
+          <figure id="close" ></figure> -->
+        </section>
+        <nav id="burgerMenu" >
+          <ul>
+              <li><a href="about.html" class="nomal-link">About</a></li>
+              <li><a href="work.html" class="nomal-link">Works</a></li>
+              <li><a href="contact.html" class="highlighted-link">Contact</a></li>
+          </ul>
+        </nav>
+        <section class="side-footer">
+          <p>Designed and Developed by Yuuri Suzuki</p>
+          <div class="social-links">
+            <a href="#facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#linkedin"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </section>  
+      </header>
     <main class="main-about">
         <section class="hero-area">
             <div class="hero-area-container">
@@ -109,5 +140,6 @@
     <!-- JS -->
     <script src="js/about.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/header.js"></script>
 </body>
 </html>
