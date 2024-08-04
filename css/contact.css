@@ -14,6 +14,7 @@ body {
 }
 
 .main-contact {
+  margin-top: 1rem; 
   flex: 1;
   display: flex;
   align-items: center;
@@ -45,8 +46,6 @@ p {
 }
 
 .contact-section {
-  max-width: 600px;
-  width: 100%;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -82,6 +81,7 @@ p {
   flex-direction: column;
   width: 100%;
   align-items: center;
+  border: none;
 }
 
 .form-group label {
@@ -115,14 +115,16 @@ label > span {
 button[type="submit"] {
   width: 40%;
   padding: 0.8rem;
-  background-color: #F2d2c9;
-  color: #8c5B54;
-  font-size: 1.2rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
   font-family: "Open Sans", sans-serif;
+  color: #8c5B54;
+  background-color: #F2d2c9;
   border: none;
   border-radius: 4px;
   cursor: pointer;
   border: 1px solid #a9Bea8;
+  margin-top: 1rem;
   margin-bottom: 2rem;
   align-items: center;
 }
@@ -169,6 +171,8 @@ button[type="submit"]:hover {
   padding: 1.5rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border: 1px solid #ddd;
+
+  z-index: 1000;
 }
 
 #popUpClose {

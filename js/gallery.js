@@ -1,27 +1,45 @@
 let imageCards = document.querySelectorAll(".gallery");
 console.log(imageCards);
 
-imageCards.forEach( thisCard => {
-    // let photo = thisCard.querySelector(".photo");
+imageCards.forEach(thisCard => {
     thisCard.addEventListener("mouseenter", function(){
-        // console.log(photo);
-        // scaling effect on hovers over
-        thisCard.firstElementChild.classList.add("scaleUp");
-        // fade-in effect for the project titles on hovers over 
-        thisCard.firstElementChild.nextElementSibling.classList.add("fadeIn");
-        thisCard.firstElementChild.nextElementSibling.nextElementSibling.classList.add("fadeInText");
-    })
-})
+        // Add scaling effect to img or video
+        let media = thisCard.querySelector("img, video");
+        if (media) {
+            media.classList.add("scaleUp");
+        }
+        // Add fade-in effect to the shade and project titles
+        let shade = thisCard.querySelector(".shade");
+        let textOverlay = thisCard.querySelector("p");
 
+        if (shade) {
+            shade.classList.add("fadeIn");
+        }
+        if (textOverlay) {
+            textOverlay.classList.add("fadeInText");
+        }
+    });
+});
 
-imageCards.forEach( thisCard => {
+imageCards.forEach(thisCard => {
     thisCard.addEventListener("mouseleave", function(){
-        
-        setTimeout(function(){
-            thisCard.firstElementChild.classList.remove("scaleUp");
-        }, 500)
+        // Remove scaling effect from img or video
+        let media = thisCard.querySelector("img, video");
+        if (media) {
+            setTimeout(function(){
+                media.classList.remove("scaleUp");
+            }, 500);
+        }
 
-        thisCard.firstElementChild.nextElementSibling.classList.remove("fadeIn");
-        thisCard.firstElementChild.nextElementSibling.nextElementSibling.classList.remove("fadeInText");
-    })
-})
+        // Remove fade-in effect from the shade and project titles
+        let shade = thisCard.querySelector(".shade");
+        let textOverlay = thisCard.querySelector("p");
+
+        if (shade) {
+            shade.classList.remove("fadeIn");
+        }
+        if (textOverlay) {
+            textOverlay.classList.remove("fadeInText");
+        }
+    });
+});
