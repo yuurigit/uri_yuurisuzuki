@@ -1,5 +1,4 @@
- 
-.header {
+ .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -108,7 +107,6 @@ section.side-header {
   transform: scale(1.1);
 }
   
-  /* lab 5 Burger menu*/
 
 /* Burger and Close Icon Styles */
 #burger,
@@ -143,33 +141,6 @@ section.side-header {
     text-align: center;
     line-height: 30px;
 }
-
-/* }
-#burger {
-  width: 50px;
-  height: 50px;
-  background-color: #fff;
-  display: block;
-  border: 1px solid #000;
-}
-
-#close {
-  display: none;
-
-  width: 30px;
-  height: 30px;
-  background: transparent;
-  border: 1px solid #a9Bea8; 
-  border-radius: 50%;  
-  cursor: pointer;
-  outline: none;
-  font-size: 1.5rem;
-  color: #a9Bea8;
-
-  justify-content: center;
-  align-items: center;
-} */
-
 
 #burgerMenu {
   background-color: #4185aa;
@@ -224,10 +195,6 @@ section.side-header {
   transition: all 0.6s ease;
 }
 
-/* #burgerMenu a:hover {
-  color: #F2d2c9;
-} */
-
 #burgerMenu a.nomal-link:hover {
   text-decoration: underline;
   color: #F2d2c9;
@@ -249,11 +216,6 @@ section.side-header {
 #burgerMenu.slideRight {
   left: 0;
 }
-
-/* .showUp {
-  display: flex;
-} */
-
 
 @media (min-width: 750px) {
   body {
@@ -290,10 +252,6 @@ section.side-header {
     margin-bottom: 1rem;
   }
   
-  /* .header.scrolled {
-    background-color: #4185aa;
-  } */
-
   .footer {
     display: none;
   }

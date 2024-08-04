@@ -12,7 +12,7 @@ let headerContent = `
         <nav id="nav" >
             <ul id="navElements">
               <li><a href="about.html" class="nomal-link">About</a></li>
-              <li><a href="work.html" class="nomal-link">Works</a></li>
+              <li><a href="gallery  .html" class="nomal-link">Works</a></li>
               <li><a href="index.html" class="highlighted-link">Contact</a></li>
             </ul>
           </nav>

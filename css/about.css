@@ -84,14 +84,6 @@ p {
   margin-bottom: 1rem;
 }
 
-/* .hero-area p {
-  font-size: 0.9rem;
-  line-height: 1.8em;
-  color: #8c5B54;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-} */
-
 .hero-area > img {
   max-width: 100%;
   display: block;
@@ -190,7 +182,6 @@ p {
 .software-skills:hover {
   transform: translateX(10px);
 }
-
 
 .software-skills ul {
   list-style: none;
