@@ -13,16 +13,35 @@ body {
   background-color: #f9f8ea;
 }
 
-/* main styles */
-
-.main {
+.main-contact {
   flex: 1;
   display: flex;
   align-items: center;
   padding: 1rem;
   color: #8c5B54;
   flex-direction: column;
-  margin-top: 70px;
+  margin-bottom: 4rem;
+}
+
+h1 {
+  font-family: "Caveat", cursive;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+h2 {
+  font-family: "Caveat", cursive;
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+p {
+  font-size: 0.9rem;
+  line-height: 1.8em;
+  color: #8c5B54;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .contact-section {
@@ -37,11 +56,6 @@ body {
   margin-bottom: 1rem;
   font-family: "Caveat", cursive;
   font-style: normal;
-  font-size: 2.986rem;
-}
-
-.contact-section p {
-  font-size: 1rem;
 }
 
 .contact-section a {
@@ -119,34 +133,6 @@ button[type="submit"]:hover {
   color: #4185aa; 
   border-color: #4185aa;
 }
-
-/* footer styles */
-
-/* .footer {
-  background: #4185aa;
-  color: #dfdccb;
-  text-align: center;
-  padding: 1rem;
-}
-
-.footer .social-links a {
-  color: #dfdccb;
-  margin: 0 0.5rem;
-  text-decoration: none;
-}
-
-.social-links a:hover {
-  text-decoration: underline;
-  color: #F2d2c9;
-}
-
-.social-links i {
-  transition: transform 0.3s ease;
-}
-
-.social-links a:hover i {
-  transform: scale(1.1);
-} */
 
 /* variations */
 

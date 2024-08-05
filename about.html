@@ -8,51 +8,13 @@
     <!-- style sheet -->
     <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/about-pc.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
 
     <title>About - Yuuri Suzuki</title>
 </head>
 <body>
     <div class="container">
-    <!-- <div data-include="header.html"></div> -->
-    <!-- burger menu -->
-    <header class="header">
-        <section class="side-header">
-          <div class="logo">
-            <img src="logo.png" alt="logo">
-          </div>
-          <div id="burger">
-            <div></div>
-            <div></div>
-            <div></div>
-            </div>
-        <div id="close">&times;</div>
-        <nav id="nav">
-            <ul>
-              <li><a href="about.html" class="nomal-link">About</a></li>
-              <li><a href="work.html" class="nomal-link">Works</a></li>
-              <li><a href="index.html" class="highlighted-link">Contact</a></li>
-            </ul>
-          </nav>
-          <!-- <figure id="burger" ></figure>
-          <figure id="close" ></figure> -->
-        </section>
-        <nav id="burgerMenu" >
-          <ul>
-              <li><a href="about.html" class="nomal-link">About</a></li>
-              <li><a href="work.html" class="nomal-link">Works</a></li>
-              <li><a href="contact.html" class="highlighted-link">Contact</a></li>
-          </ul>
-        </nav>
-        <section class="side-footer">
-          <p>Designed and Developed by Yuuri Suzuki</p>
-          <div class="social-links">
-            <a href="#facebook"><i class="fab fa-facebook-f"></i></a>
-            <a href="#instagram"><i class="fab fa-instagram"></i></a>
-            <a href="#linkedin"><i class="fab fa-linkedin-in"></i></a>
-          </div>
-        </section>  
-      </header>
+    <header id="siteHeader" class="header"></header>
     <main class="main-about">
         <section class="hero-area">
             <div class="hero-area-container">
@@ -71,7 +33,6 @@
             </div>
             <div class="hero-area-button">
                 <a href="index.html" class="contact-button">Contact Me</a>
-           
         </div>
         </section>
         <section class="about-section">
@@ -102,16 +63,11 @@
                     <li>Lightroom</li>
                     <li>Figma</li>
                 </ul>
-            <!-- <p id="myBio">Adventurer Visited 20 cuontries<br>Dancer Belly dancing for 4+ years <br>Farmers Market Lover Exploreing and Volunteering </p> -->
-            <!-- <p id="myTitle">A web designer and UI expert who attracts people and products through design.</p> -->
         </section>
         <section class="services-section">
             <h1>How do I be magnetic?</h1>
             <div class="services-container">
                 <div class="service">
-                    <!-- in class -->
-                    <!-- <figure></figure> -->
-                    <!-- in class -->
                     <img src="/assets/images/web.png" alt="Service 1">
                     <h3>Web Design</h3>
                     <p>Creating visually appealing and user-friendly websites.</p>
@@ -134,12 +90,11 @@
             </div>
         </section>
     </main>
-
-    <div data-include="footer.html"></div>
+    <footer id="siteFooter" class ="footer"></footer>
 </div>
     <!-- JS -->
     <script src="js/about.js"></script>
-    <script src="js/main.js"></script>
     <script src="js/header.js"></script>
+    <script src="js/footer.js"></script>
 </body>
 </html>
