@@ -1,7 +1,7 @@
 let headerContent = `
  <section class="side-header">
             <div class="logo">
-            <img src="logo.png" alt="logo">
+            <img src="/assets/images/logo.png" alt="logo">
             </div>
             <div id="burger">
                 <div></div>
