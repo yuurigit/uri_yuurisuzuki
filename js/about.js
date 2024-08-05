@@ -1,14 +1,3 @@
-// week 7 claas
-// let yuuri =document.getElementById("myName");
-// let title =document.getElementById("myTitle");
-// console.log(yuuri);
-
-// window.addEventListener("load", function(){
-//     yuuri.classlist.add("slidUp");
-//     myTitle.classlist.add("slidUp");
-
-// })
-
 document.addEventListener('DOMContentLoaded', function() {
     let image1 = document.getElementById('image1');
     let image2 = document.getElementById('image2');
@@ -23,6 +12,18 @@ document.addEventListener('DOMContentLoaded', function() {
         image1.style.display = 'inline';
     });
 });
+
+// week 7 claas
+// let yuuri =document.getElementById("myName");
+// let title =document.getElementById("myTitle");
+// console.log(yuuri);
+
+// window.addEventListener("load", function(){
+//     yuuri.classlist.add("slidUp");
+//     myTitle.classlist.add("slidUp");
+
+// })
+
 
 
 // week 8 class
